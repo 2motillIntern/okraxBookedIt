@@ -3,7 +3,7 @@ import { SLACK_OAUTH_TOKEN } from './constant'
 
 const rtm = new RTMClient(SLACK_OAUTH_TOKEN);
 
-rtm.start()
+rtm.start() 
     .catch(console.error);
     
 rtm.on('ready', async () => {
