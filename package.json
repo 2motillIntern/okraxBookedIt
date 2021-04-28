@@ -1,0 +1,17 @@
+{
+  "name": "okraxbookedit",
+  "version": "0.0.0",
+  "description": "Find a place to eat, play, or stay with this famed directory for Black owned businesses. ",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "Big Blanco",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/rtm-api": "^6.0.0",
+    "@slack/web-api": "^6.1.0",
+    "esm": "^3.2.25"
+  }
+}
